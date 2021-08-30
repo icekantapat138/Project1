@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.McLaren">
+   <children>
+      <ImageView fitHeight="66.0" fitWidth="255.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/name/Downloads/mclarenlogo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="62.0" layoutY="90.0" prefHeight="480.0" prefWidth="185.0" spacing="40.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Users/name/Downloads/p1-removebg-preview%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Users/name/Downloads/765lt-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Users/name/Downloads/570s-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Label layoutX="321.0" layoutY="140.0" text="McLaren P1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="321.0" layoutY="168.0" text="NUMBER OF CAR : " textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="avensNumber" layoutX="429.0" layoutY="168.0" text="Label" />
+      <Hyperlink layoutX="757.0" layoutY="560.0" onAction="#homeHyperlink" text="🏠" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="321.0" layoutY="308.0" text="McLaren 765LT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="321.0" layoutY="336.0" text="NUMBER OF CAR : " textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="avensNumber1" layoutX="429.0" layoutY="336.0" text="Label" />
+      <Label layoutX="321.0" layoutY="464.0" text="McLaren 570S coupe" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="321.0" layoutY="492.0" text="NUMBER OF CAR : " textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="avensNumber2" layoutX="429.0" layoutY="492.0" text="Label" />
+      <HBox alignment="CENTER" layoutX="507.0" layoutY="93.0" prefHeight="150.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <TextField prefHeight="25.0" prefWidth="43.0" />
+            <Button mnemonicParsing="false" text="Order" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="507.0" layoutY="255.0" prefHeight="150.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <TextField prefHeight="25.0" prefWidth="43.0" />
+            <Button mnemonicParsing="false" text="Order" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="507.0" layoutY="406.0" prefHeight="150.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <TextField prefHeight="25.0" prefWidth="43.0" />
+            <Button mnemonicParsing="false" text="Order" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

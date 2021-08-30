@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.Customer_info">
+   <children>
+      <ListView layoutX="51.0" layoutY="93.0" prefHeight="462.0" prefWidth="290.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="548.0" layoutX="391.0" layoutY="26.0" stroke="TRANSPARENT" strokeType="INSIDE" width="18.0" />
+      <Label layoutX="107.0" layoutY="42.0" prefHeight="34.0" prefWidth="178.0" text="CUSTOMER LIST" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="523.0" layoutY="42.0" prefHeight="34.0" prefWidth="166.0" text="INFORMATION" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <VBox layoutX="428.0" layoutY="100.0" prefHeight="302.0" prefWidth="178.0" spacing="20.0">
+         <children>
+            <Label prefHeight="34.0" prefWidth="100.0" text="FIRSTNAME :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" text="LASTNAME :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" text="USERNAME :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" text="EMAIL :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="#667079" height="34.0" layoutX="589.0" layoutY="100.0" stroke="#705b5b00" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="#667079" height="34.0" layoutX="589.0" layoutY="154.0" stroke="#705b5b00" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="#667079" height="34.0" layoutX="589.0" layoutY="208.0" stroke="#705b5b00" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="#667079" height="34.0" layoutX="589.0" layoutY="255.0" stroke="#705b5b00" strokeType="INSIDE" width="200.0" />
+      <VBox layoutX="595.0" layoutY="100.0" prefHeight="302.0" prefWidth="166.0" spacing="20.0">
+         <children>
+            <Label prefHeight="34.0" prefWidth="100.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.admin.Admin_lam">
+    <children>
+        <Label layoutX="89.0" layoutY="26.0" text="LAMBORGHINI(ADMIN)" textFill="WHITE">
+            <font>
+                <Font name="Lucida Sans Typewriter Bold" size="25.0" />
+            </font>
+        </Label>
+        <VBox layoutX="79.0" layoutY="77.0" prefHeight="474.0" prefWidth="200.0" spacing="50.0">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../Users/name/Pictures/aven%20s.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="127.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../Users/name/Pictures/hura%20evo.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="128.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../Users/name/Pictures/urus%202019.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
+        <HBox alignment="CENTER" layoutX="487.0" layoutY="69.0" prefHeight="150.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <TextField fx:id="avensAddTextfield" prefHeight="25.0" prefWidth="43.0" promptText="Add Car" />
+                <Button fx:id="avensAddButton" mnemonicParsing="false" onAction="#avensAddButton" text="Add" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" layoutX="487.0" layoutY="239.0" prefHeight="150.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <TextField fx:id="evoAddTextfield" prefHeight="25.0" prefWidth="43.0" />
+                <Button fx:id="evoAddButton" mnemonicParsing="false" onAction="#EVOaddButton" text="Add" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" layoutX="487.0" layoutY="389.0" prefHeight="150.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <TextField fx:id="urusAddTextfield" prefHeight="25.0" prefWidth="43.0" />
+                <Button fx:id="urusAddButton" mnemonicParsing="false" onAction="#urusAddButton" text="Add" />
+            </children>
+        </HBox>
+        <ImageView fitHeight="68.0" fitWidth="92.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../../../../Users/name/Pictures/lamborghini-logo.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="307.0" layoutY="116.0" text="Lamborghini Aventador S" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="307.0" layoutY="144.0" text="NUMBER OF CAR : " textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="avensNumberLabel" layoutX="415.0" layoutY="144.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+        <Label layoutX="321.0" layoutY="292.0" text="Lamborghini Huracan EVO" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="321.0" layoutY="320.0" text="NUMBER OF CAR : " textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="evoNumberLabel" layoutX="429.0" layoutY="320.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+        <Label layoutX="326.0" layoutY="442.0" text="Lamborghini Urus 2019" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="326.0" layoutY="470.0" text="NUMBER OF CAR : " textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="urusNumberLabel" layoutX="434.0" layoutY="470.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Hyperlink layoutX="757.0" layoutY="560.0" onAction="#homeHyperlink" text="🏠" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Hyperlink>
+    </children>
+</AnchorPane>

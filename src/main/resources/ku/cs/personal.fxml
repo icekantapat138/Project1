@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.Personal">
+   <children>
+      <Hyperlink layoutX="724.0" layoutY="512.0" onAction="#handleHomeHyperlink" text="🏠" textFill="#ffbf00">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="30.0" layoutY="31.0" text="PERSON" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="39.0" layoutY="100.0" prefHeight="338.0" prefWidth="730.0">
+        <columns>
+          <TableColumn fx:id="datetimeColumn" prefWidth="70.0" text="DATE-TIME" />
+          <TableColumn fx:id="firstnameColumn" prefWidth="90.0" text="FIRSTNAME" />
+            <TableColumn fx:id="lastnameColumn" prefWidth="90.0" text="LASTNAME" />
+            <TableColumn fx:id="usernameColumn" prefWidth="90.0" text="USERNAME" />
+            <TableColumn fx:id="emailColumn" prefWidth="100.0" text="EMAIL" />
+            <TableColumn fx:id="passwordColumn" prefWidth="110.0" text="PASSWORD" />
+            <TableColumn fx:id="retyprpasswordColumn" prefWidth="110.0" text="RETYPR PASSWORD" />
+            <TableColumn fx:id="imageColumn" prefWidth="70.0" text="IMAGE" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
